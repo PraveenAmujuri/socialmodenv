@@ -1,3 +1,13 @@
+---
+title: SocialModEnv
+emoji: 🤖
+colorFrom: blue
+colorTo: purple
+sdk: docker
+app_port: 7860
+pinned: false
+---
+
 # SocialModEnv
 
 **Content Moderation Policy Simulation for Reinforcement Learning (OpenEnv)**
