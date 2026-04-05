@@ -200,9 +200,6 @@ cd socialmodenv
 pip install -r requirements.txt
 
 # Start server
-python server/app.py
-
-# Alternative (Uvicorn)
 uvicorn server.app:app --reload --port 7860
 
 # Run baseline inference
@@ -224,6 +221,13 @@ docker run -p 7860:7860 \
 ```
 
 ### API Quick Start
+
+**Endpoints**
+- POST /reset
+- POST /step
+- GET /state
+- GET /tasks
+- GET /health
 
 ```bash
 # Reset task
